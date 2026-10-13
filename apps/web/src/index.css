@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  overflow-x: clip;
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+.font-display {
+  font-family: "Amiri", serif;
+}
+
+.font-label {
+  font-family: "IBM Plex Mono", monospace;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+/*
+  ---break---
+*/
+
+@layer base {
+  :root {
+    --background: 38 32% 95%;
+    --foreground: 28 24% 12%;
+    --card: 38 30% 97%;
+    --card-foreground: 28 24% 12%;
+    --popover: 38 30% 97%;
+    --popover-foreground: 28 24% 12%;
+    --primary: 28 26% 14%;
+    --primary-foreground: 38 32% 95%;
+    --secondary: 36 22% 89%;
+    --secondary-foreground: 28 24% 14%;
+    --muted: 36 20% 90%;
+    --muted-foreground: 30 10% 42%;
+    --accent: 34 26% 86%;
+    --accent-foreground: 28 26% 14%;
+    --destructive: 8 58% 38%;
+    --destructive-foreground: 38 32% 95%;
+    --border: 32 16% 78%;
+    --input: 32 16% 78%;
+    --ring: 28 24% 18%;
+    --radius: 0rem;
+    --sidebar-background: 38 32% 95%;
+    --sidebar-foreground: 28 24% 12%;
+    --sidebar-primary: 28 26% 14%;
+    --sidebar-primary-foreground: 38 32% 95%;
+    --sidebar-accent: 34 26% 86%;
+    --sidebar-accent-foreground: 28 26% 14%;
+    --sidebar-border: 32 16% 78%;
+    --sidebar-ring: 28 24% 18%;
+  }
+  .dark {
+    --background: 28 20% 9%;
+    --foreground: 38 28% 92%;
+    --card: 28 18% 12%;
+    --card-foreground: 38 28% 92%;
+    --popover: 28 18% 12%;
+    --popover-foreground: 38 28% 92%;
+    --primary: 38 28% 90%;
+    --primary-foreground: 28 24% 12%;
+    --secondary: 30 14% 18%;
+    --secondary-foreground: 38 28% 92%;
+    --muted: 30 14% 18%;
+    --muted-foreground: 34 12% 62%;
+    --accent: 30 16% 20%;
+    --accent-foreground: 38 28% 92%;
+    --destructive: 8 50% 42%;
+    --destructive-foreground: 38 28% 92%;
+    --border: 30 12% 24%;
+    --input: 30 12% 24%;
+    --ring: 34 14% 70%;
+    --sidebar-background: 28 20% 9%;
+    --sidebar-foreground: 38 28% 92%;
+    --sidebar-primary: 38 28% 90%;
+    --sidebar-primary-foreground: 28 24% 12%;
+    --sidebar-accent: 30 16% 20%;
+    --sidebar-accent-foreground: 38 28% 92%;
+    --sidebar-border: 30 12% 24%;
+    --sidebar-ring: 34 14% 70%;
+  }
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+}
