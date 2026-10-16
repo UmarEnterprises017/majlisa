@@ -7,7 +7,7 @@ const translations = {
     dir: 'rtl',
     locale: 'ar',
     businessName: 'تفصیل ترکیب ستائر رول ویفی عربی مجلس کنب کل انواع',
-    phone: '0561538652',
+    phone: '0553202514',
     address: '3621 الحوي, Al Aqiq, Riyadh 13515, Saudi Arabia',
     cart: 'السلة',
     cartAria: 'سلة التسوق',
@@ -59,7 +59,7 @@ const translations = {
     homeMetaTitle:
       'تفصیل ترکیب ستائر رول ویفی عربی مجلس کنب کل انواع — ستائر ووسائد مخصصة في الرياض',
     homeMetaDesc:
-      'تفصيل وتركيب ستائر رول وستائر مجالس عربية فاخرة ووسائد كنب مخصصة في الرياض، حي العقيق. اتصل بنا: 0561538652',
+      'تفصيل وتركيب ستائر رول وستائر مجالس عربية فاخرة ووسائد كنب مخصصة في الرياض، حي العقيق. اتصل بنا: 0553202514',
     services: [
       {
         index: '٠١',
@@ -95,7 +95,7 @@ const translations = {
     dir: 'ltr',
     locale: 'en',
     businessName: 'Custom Roller & Arabic Majlis Curtains & Sofa Cushions',
-    phone: '0561538652',
+    phone: '0553202514',
     address: '3621 Al Huway, Al Aqiq, Riyadh 13515, Saudi Arabia',
     cart: 'Cart',
     cartAria: 'Shopping cart',
@@ -146,7 +146,7 @@ const translations = {
     successBody: 'Your order was received. We will contact you soon to confirm details and measurements.',
     homeMetaTitle: 'Custom curtains & sofa cushions in Riyadh — roller, majlis & more',
     homeMetaDesc:
-      'Custom roller curtains, luxury Arabic majlis drapes, and made-to-order sofa cushions in Al Aqiq, Riyadh. Call 0561538652.',
+      'Custom roller curtains, luxury Arabic majlis drapes, and made-to-order sofa cushions in Al Aqiq, Riyadh. Call 0553202514.',
     services: [
       {
         index: '01',

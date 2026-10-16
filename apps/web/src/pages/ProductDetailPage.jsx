@@ -302,11 +302,11 @@ function ProductDetailPage() {
                     )}
 
                     <a
-                      href="tel:0561538652"
+                      href="tel:0553202514"
                       className="mt-3 flex w-full items-center justify-center gap-2 border border-border py-3 text-sm font-medium transition-colors hover:bg-accent"
                     >
                       <Phone size={16} />
-                      {lang === 'ar' ? 'للاستفسار عن المقاسات:' : 'Ask about sizes:'} <span dir="ltr">0561538652</span>
+                      {lang === 'ar' ? 'للاستفسار عن المقاسات:' : 'Ask about sizes:'} <span dir="ltr">0553202514</span>
                     </a>
                   </div>
                 </>
